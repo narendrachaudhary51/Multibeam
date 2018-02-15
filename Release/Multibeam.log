@@ -1,0 +1,84 @@
+﻿Build started 1/4/2016 5:43:28 AM.
+     1>Project "C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Multibeam.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Multibeam.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\Multibeam.exe.embed.manifest.res" Release\Multibeam_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\lib" zlibstat.lib libpng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Multibeam.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.lib" /MACHINE:X86 Release\Multibeam.exe.embed.manifest.res
+         Release\AC.obj
+         Release\ClassDecoder.obj
+         Release\ClassEncoder.obj
+         Release\ClassPNG.obj
+         Release\EndPoints.obj
+         Release\Main.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         Generating code
+         Finished generating code
+     1>zlibstat.lib(adler32.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(crc32.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(deflate.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(inflate.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(inftrees.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(trees.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(zutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(png.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngerror.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngget.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngmem.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngread.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrio.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrtran.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngset.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngtrans.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwio.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwrite.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwtran.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\Multibeam.exe.embed.manifest" /manifest Release\Multibeam.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\Multibeam.exe.embed.manifest.res" Release\Multibeam_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\lib" zlibstat.lib libpng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Multibeam.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.lib" /MACHINE:X86 Release\Multibeam.exe.embed.manifest.res
+         Release\AC.obj
+         Release\ClassDecoder.obj
+         Release\ClassEncoder.obj
+         Release\ClassPNG.obj
+         Release\EndPoints.obj
+         Release\Main.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         Generating code
+         Finished generating code
+     1>zlibstat.lib(adler32.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(crc32.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(deflate.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(inflate.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(inftrees.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(trees.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>zlibstat.lib(zutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(png.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngerror.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngget.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngmem.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngread.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrio.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrtran.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngrutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngset.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngtrans.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwio.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwrite.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwtran.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libpng.lib(pngwutil.obj) : warning LNK4204: 'C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Multibeam.vcxproj -> C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Release\Multibeam.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\Multibeam.unsuccessfulbuild".
+         Touching "Release\Multibeam.lastbuildstate".
+     1>Done Building Project "C:\Users\narendra\Documents\Visual Studio 2010\Projects\Multibeam\Multibeam\Multibeam.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.16
